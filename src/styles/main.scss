@@ -1,4 +1,22 @@
+@import "./reset.scss";
+@import "./variables.scss";
+
 .app {
 	height: 500px;
 	background-color: pink;
+}
+
+.section {
+	max-width: 1420px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.btn {
+	background-color: $white-color;
+	padding: 10px 30px;
+	color: $red-color;
+	border-radius: 30px;
+	text-decoration: none;
+	font-weight: 700;
 }
