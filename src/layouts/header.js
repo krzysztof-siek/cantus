@@ -19,9 +19,15 @@ const Header = () => {
 						<Link to="/contact" className="nav-item middle">ICON</Link>
 						<div className="nav-right">
 
-						<Link to="/contact" className="nav-item">Fb</Link>
-						<Link to="/contact" className="nav-item">Twe</Link>
-						<Link to="/contact" className="nav-item">Goog</Link>
+						<Link to="/contact" className="nav-item">
+							<i class="fab fa-facebook-f"></i>
+						</Link>
+						<Link to="/contact" className="nav-item">
+						<i class="fab fa-twitter"></i>
+						</Link>
+						<Link to="/contact" className="nav-item">
+						<i class="fab fa-google-plus-g"></i>
+						</Link>
 						<Link to="/contact" className="btn">Purchase Ticker</Link>
 						</div>
 					</div>
