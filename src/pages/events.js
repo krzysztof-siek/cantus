@@ -1,14 +1,14 @@
 import React from 'react';
 import Layout from "../layouts/layout";
 
-const About = () => {
+const Events = () => {
 	return ( 
-		<div className="about">
+		<div className="events">
 			<Layout>
-			<h3>About</h3>
+			<h3>Events</h3>
 			</Layout>
 		</div>
 	 );
 }
  
-export default About;
+export default Events;

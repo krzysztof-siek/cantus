@@ -1,15 +1,14 @@
 import React from 'react';
 import Layout from "../layouts/layout";
 
-
-const Contact = () => {
+const News = () => {
 	return ( 
-		<div>
+		<div className="news">
 			<Layout>
-			<h2>Contant</h2>
+			<h3>News</h3>
 			</Layout>
 		</div>
 	 );
 }
  
-export default Contact;
+export default News;
