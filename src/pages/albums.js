@@ -1,13 +1,15 @@
 import React from 'react';
 import Layout from "../layouts/layout";
 
+import "../styles/pages/albums.scss";
+
 const Albums = () => {
 	return ( 
-		<div className="albums">
-			<Layout>
-			<h3>Albums</h3>
-			</Layout>
-		</div>
+		<Layout>
+			<div className="albums">
+				<h3>Albums</h3>
+			</div>
+		</Layout>
 	 );
 }
  

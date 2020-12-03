@@ -1,13 +1,16 @@
 import React from 'react';
 import Layout from "../layouts/layout";
 
+import "../styles/pages/news.scss";
+
+
 const News = () => {
 	return ( 
-		<div className="news">
-			<Layout>
-			<h3>News</h3>
-			</Layout>
-		</div>
+		<Layout>
+			<div className="news">
+				<h3>News</h3>
+			</div>
+		</Layout>
 	 );
 }
  
